@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>NESTORA</h1>
+        
+            <div class="nav">
+                <nav>                   
+                    <a href="#home">Home</a>
+                    <a href="#about">Explore</a>
+                    <a href="#create">Create</a>
+                    <a href="#contact">Contact</a>                   
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="slogan" id="home">
+            <div class="text">
+            <h1>Where Your Style Meets Your <br>Space.</h1>
+            <p>Explore, design, and personalize a space that truly feels like yours.</p>
+            <button type="button">Start Creating</button>
+            </div>
+            <div class="image">
+                <img src="slogan.jpg">
+            </div>
+        </section>
+
+        <article class="about" id="about">
+            <hr>
+            <h1>ABOUT NESTORA</h1>
+            <h3 style="font-size: 2rem;">Design Your Space, Your Way.</h3>
+            <p>We help you discover beautiful interior ideas,explore different styles, and create a space that matches your personality and lifestyle.</p>
+            <div class="aboutContainer">
+                <div class="aboutbox1">
+                    <h3><i class="fa-solid fa-palette"></i>Discover</h3>
+                    <p>Explore creative interior ideas and inspiration.</p>                
+                </div>
+                <div class="aboutbox">
+                    <h3><i class="fa-regular fa-pen-to-square"></i>Design</h3>
+                    <p>Create a space that matches your taste.</p>
+                </div>
+                <div class="aboutbox">
+                    <h3><i class="fa-solid fa-sliders"></i>Transform</h3>
+                    <p>Turn your ideas into a beautiful living space.</p>
+                </div>
+            </div>
+        </article>
+
+        <section class="sectionStyle"  >
+            <h2>Explore Interior Styles</h2>
+            <p>Find the style that matches your vision.</p>
+           
+            <div class="imgContainer">
+                
+                <div class="imgbox">
+                    <img src="Classic.jpg" alt="">
+                    <h3>Classic</h3>
+                    <p>Timeless elegance with a touch of tradition.</p>
+                </div>
+                <div class="imgbox">
+                    <img src="Bohemina1.jpg" alt="">
+                    <h3>Bohemian</h3>
+                    <p>Creative, colorful, and free-spirited style</p>
+                </div>
+                <div class="imgbox">
+                    <img src="Industrial.webp" alt="">
+                    <h3>Industrial</h3>
+                    <p>Bold spaces with raw and modern elements.</p>
+                </div>
+                <div class="imgbox">
+                    <img src="Modern1.webp" alt="">
+                    <h3>Modern</h3>
+                    <p>Clean, simple, and stylish contemporary design.</p>
+                </div>
+                
+                <div class="imgbox">
+                    <img src="Classic.jpg" alt="">
+                    <h3>Classic</h3>
+                    <p>Timeless elegance with a touch of tradition.</p>
+                </div>
+                <div class="imgbox">
+                    <img src="Bohemina1.jpg" alt="">
+                    <h3>Bohemian</h3>
+                    <p>Creative, colorful, and free-spirited style</p>
+                </div>
+                <div class="imgbox">
+                    <img src="Industrial.webp" alt="">
+                    <h3>Industrial</h3>
+                    <p>Bold spaces with raw and modern elements.</p>
+                </div>
+                <div class="imgbox">
+                    <img src="Modern1.webp" alt="">
+                    <h3>Modern</h3>
+                    <p>Clean, simple, and stylish contemporary design.</p>
+                </div>                
+            </div>
+           
+
+        </section>
+
+        <section class="section5">
+            <p class="section-title">From idea to space</p>
+
+            <div class="item">               
+                <div class="ideabox">
+                    <span class="number">01</span>
+                    <h4>Choose Your Space</h4>
+                    <p>Pick your room.</p>
+                </div>
+                <div class="ideabox">
+                    <span class="number">02</span>
+                    <h4>Find Your Style</h4>
+                    <p>Choose your style.</p>
+                </div>
+                <div class="ideabox">
+                    <span class="number">03</span>
+                    <h4>Create Your Space</h4>
+                    <p>Start designing.</p>
+                </div>   
+                <div class="ideabox">
+                    <span class="number">04</span>
+                    <h4>Make It Yours</h4>
+                    <p>Add your touch.</p>
+                </div>                                             
+            </div>
+        </section>
+
+        <section class="section_form">
+            <div class="gallery">
+                <img src="slogan1.webp">
+            </div>
+            <div class="form">
+                <p><ins>Start Creating</ins></p>
+                <form action="https://formspree.io/f/mqparypn" method="POST" onsubmit="return CreatingForm()">
+                    <label>Full Name</label><br>
+                    <input type="text" id="input" name="name"   placeholder="Your Full Name"><br>
+                    <label>Email</label><br>
+                    <input type="email" id="email" name="email"  placeholder="Your Email"><br>
+                    <label>Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone"  placeholder="Your Phone Number">
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <footer id="contact">
+        <h1><ins>NESTORA</ins></h1>
+        <p>Design Your Space, Your Way.</p>
+        <div class="footerbox">
+            <p><a href="#home">Home</a></p>
+            <p><a href="#create">Explore</a></p>
+            <p><a href="#contact">Contact</a></p>            
+        </div>
+        <div class="footerlink">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <hr>
+        <div class="footercopy">
+            <p>&copy;2026 Nestora. All rights reserved.</p>
+        </div>
+       
+    </footer>
+    <script>
+        
+        function CreatingForm(){
+            let userNmae=document.getElementById("input").value;
+            let userEmail= document.getElementById("email").value;
+            let userPhone= document.getElementById("phone").value;
+
+            let pattern2= /^[6-9]\d{9}$/;
+            let pattern1= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if(userNmae.trim() ===""|| userEmail.trim() ===""|| userPhone.trim() ===""){
+                alert("Please fill all the fields");
+                return false;
+            }
+            else if(!pattern1.test(userEmail)){
+                alert("Enter a valid Email ");
+                return false;
+            }
+            else if(!pattern2.test(userPhone)){
+                alert("Enter a valid Phone number");
+                return false;
+            }
+            else{
+                alert("Thank you! Your request has been submitted.");
+                return true;
+            }
+        }
+    </script>
+
+</body>
+</html>
